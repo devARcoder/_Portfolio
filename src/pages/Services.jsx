@@ -2,9 +2,11 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-      i am Services
-    </div>
+    <>
+    <div className="bg-[#252525] h-[90vh]">
+
+</div>
+    </>
   )
 }
 

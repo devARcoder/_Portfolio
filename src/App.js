@@ -9,11 +9,12 @@ import Services from './pages/Services'
 import Testimonials from './pages/Testimonials'
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Sidebar from "./components/Sidebar";
 const App = () => {
   return (
     <>
    <BrowserRouter>
-   <Navbar/>    
+       
         <Routes>
         <Route exact path="/" element={<Home/>} />
           <Route exact path="/about" element={<About/>} />
@@ -22,6 +23,8 @@ const App = () => {
           <Route exact path="/services" element={<Services/>}/>
           <Route exact path="/testimonials" element={<Testimonials/>}/>
         </Routes>
+        {/* <Navbar/> */}
+        <Sidebar/>
       </BrowserRouter>
     </>
   );

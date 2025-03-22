@@ -2,9 +2,11 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      i am Projects
-    </div>
+    <>
+    <div className="bg-[#252525] h-[90vh]">
+
+</div>
+    </>
   )
 }
 

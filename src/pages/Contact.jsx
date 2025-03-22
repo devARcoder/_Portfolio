@@ -2,9 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-      i am contact
-    </div>
+    <>
+    <div className="bg-[#252525] h-[90vh]">
+
+</div>
+    </>
   )
 }
 
