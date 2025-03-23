@@ -1,0 +1,4 @@
+.transition-circle {
+    transition: stroke-dashoffset 1s ease-in-out;
+  }
+  

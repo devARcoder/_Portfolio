@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Services from './pages/Services'
 import Testimonials from './pages/Testimonials'
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Sidebar from "./components/Sidebar";
 const App = () => {
