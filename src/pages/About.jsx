@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../assets/profile.png";
 import Skills from "../components/Skills";
+import Educations from "../components/Educations";
 const About = () => {
   
   return (
@@ -23,7 +24,7 @@ const About = () => {
         <div className="allheadings md:flex md:flex-row md:justify-evenly md:mt-28">
         <div className="info flex flex-row ">
           
-          <div className="naming flex space-x-6 mx-6 my-7">
+          <div className="naming flex space-x-6 mx-6 mt-7 mb-3">
             <div className="flex flex-col space-y-5">
             <h1 className="flex flex-col text-gray-400 font-semibold ">First Name: <span className="text-white font-bold">Abdur</span></h1>
             <h1 className="flex flex-col text-gray-400 font-semibold ">Age: <span className="text-white font-bold">20 Years</span></h1>
@@ -89,7 +90,9 @@ const About = () => {
 </div>
             </div>
           </div>
-      </div> 
+      </div>
+      <div className="flex md:space-x-80 items-center">
+         
       <div
             className="flex items-center space-x-2 my-3 mx-4 md:ml-36 border border-yellow-500 w-[13rem] md:w-[14rem] rounded-full transform transition-all duration-300 hover:bg-yellow-500 "
           >
@@ -102,9 +105,35 @@ const About = () => {
 </svg>
 
           </div>
+          <p
+  id="forScrollToSkills"
+  className="animate-bounce mt-1 cursor-pointer"
+  onClick={() => {
+    document.getElementById("skills")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="white"
+    className="size-6 w-12 rotate-90 h-12 md:w-14 md:h-14 font-extrabold rounded-full px-2 hover:bg-yellow-500 rounded-full px-2 transform transition-all duration-300"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+    />
+  </svg>
+</p>
 
+          </div>
 
-          <Skills/>
+          <Skills id="skills"/>
+          <Educations/>
       </div>
 
     </>
