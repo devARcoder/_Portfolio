@@ -1,10 +1,10 @@
 import React from "react";
-import ProjectNavigation from "../components/ProjectNavigation";
+import ProjectTabs from "../components/ProjectTabs";
 const Projects = () => {
   return (
     <>
-      <div className="bg-[#252525] h-screen">
-        <div className="bg-[#252525] h-screen">
+      <div className="bg-[#252525] pb-40 md:h-screen">
+        <div className="bg-[#252525]">
           <div className="heading relative text-white flex flex-col items-center py-7">
             <h1 className="absolute text-7xl font-extrabold tracking-widest md:tracking-wider opacity-15 md:text-9xl">
               WORKS
@@ -13,7 +13,7 @@ const Projects = () => {
               MY <span className="text-yellow-500">PORTFOLIO</span>
             </h1>
           </div>
-        <ProjectNavigation/>
+        <ProjectTabs/>
         </div>
       </div>
     </>

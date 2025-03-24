@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import profile from "../assets/profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+// import { FaGithub } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { IoLogoWhatsapp } from "react-icons/io";
+// import { FaInstagram } from "react-icons/fa";
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -57,7 +60,7 @@ const Home = () => {
             CSS, and JavaScript, building modern, responsive, and interactive
             web applications.
           </p>
-          <div
+          {/* <div
             data-aos="zoom-in-up"
             className="flex items-center space-x-2 my-3 border border-yellow-500 rounded-full transform transition-all duration-300 hover:bg-yellow-500 "
           >
@@ -79,6 +82,12 @@ const Home = () => {
                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
               />
             </svg>
+          </div> */}
+          <div className="icons">
+            <p>github</p>
+            <p>linkedin</p>
+            <p>whatsApp</p>
+            <p>insta</p>
           </div>
         </div>
       </div>

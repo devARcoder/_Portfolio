@@ -32,9 +32,12 @@ const Skills = () => {
           />
         ))}
       </div>
-      <p
+
+      <div className="flex justify-center items-center">
+          
+          <p
             id="forScrollToSkills"
-            className="animate-bounce mt-10 cursor-pointer flex flex-col items-center"
+            className="animate-bounce sm:ml-28 mt-1 cursor-pointer"
             onClick={() => {
               document.getElementById("education")?.scrollIntoView({
                 behavior: "smooth",
@@ -56,6 +59,7 @@ const Skills = () => {
               />
             </svg>
           </p>
+        </div>
     </section>
   );
 };

@@ -8,7 +8,7 @@ const Educations = () => {
           EXPERIENCE & EDUCATION
         </h1>
         <div className="grid grid-cols-1 gap-y-3 md:grid md:grid-cols-2 md:gap-4 mt-4 md:mt-10">
-          <div className="1 flex my-4 mx-3">
+          <div className="1 flex my-4 mx-3" data-aos="fade-right">
             <div className="flex flex-col items-center">
               <p className="text-white text-xl bg-yellow-500 p-3 rounded-full">
                 <IoBagCheckSharp />
@@ -30,7 +30,7 @@ const Educations = () => {
               </p>
             </div>
           </div>
-          <div className="2 flex my-4 mx-3">
+          <div className="2 flex my-4 mx-3" data-aos="fade-right">
             <div className="flex flex-col items-center">
               <p className="text-white text-xl bg-yellow-500 p-3 rounded-full">
                 <IoBagCheckSharp />
@@ -52,7 +52,7 @@ const Educations = () => {
               </p>
             </div>
           </div>
-          <div className="3 flex my-4 mx-3">
+          <div className="3 flex my-4 mx-3" data-aos="fade-right">
             <div className="flex flex-col items-center">
               <p className="text-white text-xl bg-yellow-500 p-3 rounded-full">
                 <IoBagCheckSharp />
@@ -72,7 +72,7 @@ const Educations = () => {
               </p>
             </div>
           </div>
-          <div className="4 flex my-4 mx-3">
+          <div className="4 flex my-4 mx-3" data-aos="fade-right">
             <div className="flex flex-col items-center">
               <p className="text-white text-xl bg-yellow-500 p-3 rounded-full">
                 <IoBagCheckSharp />

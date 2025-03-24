@@ -20,22 +20,12 @@ const Sidebar = () => {
   }, []);
   return (
     <>
-    <div className="sidebar  fixed bottom-0 w-full md:w-auto bg-gray-700 md:fixed md:right-0 md:top-32 md:bg-transparent">
+    <div className="sidebar fixed bottom-0 w-full z-40 md:w-auto bg-gray-700 md:fixed md:right-0 md:top-32 md:bg-transparent">
           <div className="sidebar flex flex-row justify-center items-center space-x-3 md:flex md:flex-col md:justify-center md:items-center md:space-y-3 md:px-5">
             <div className="hidden md:text-3xl md:text-white md:transition-all md:duration-500 md:ease-in-out md:-translate-y-24">
             <BsFillBrightnessHighFill />
             </div>
-            {/** Home Link */}
-            <Link
-              to="/"
-              className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
-                location.pathname === "/"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
-                  : ""
-              }`}
-            >
-              <FaHome />
-            </Link>
+            
 
             {/** About Link */}
             <Link
@@ -59,6 +49,18 @@ const Sidebar = () => {
               }`}
             >
               <GrProjects />
+            </Link>
+
+            {/** Home Link */}
+            <Link
+              to="/"
+              className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
+                location.pathname === "/"
+                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  : ""
+              }`}
+            >
+              <FaHome />
             </Link>
 
             {/** Testimonials Link */}
