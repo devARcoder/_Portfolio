@@ -1,6 +1,5 @@
 import React from "react";
-import All from '../pages/project_nav/All'
-// import { Link } from "react-router-dom";
+import ProjectNavigation from "../components/ProjectNavigation";
 const Projects = () => {
   return (
     <>
@@ -14,7 +13,7 @@ const Projects = () => {
               MY <span className="text-yellow-500">PORTFOLIO</span>
             </h1>
           </div>
-            <All/>
+        <ProjectNavigation/>
         </div>
       </div>
     </>

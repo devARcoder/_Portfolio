@@ -19,9 +19,9 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="h-screen pt-5 pb-20 md:py-24">
+    <section id="skills" className=" pt-5 pb-0 md:py-24">
       <h2 className="text-center text-4xl md:tracking-widest font-bold mb-12 text-white">MY SKILLS</h2>
-      <div className="grid grid-cols-2 justify-items-center gap-y-10 md:grid md:grid-cols-4 md:gap-y-16 md:justify-items-center">
+      <div className="grid grid-cols-2 justify-items-center gap-y-10 sm:grid sm:grid-cols-3 md:grid md:grid-cols-4 md:gap-y-16 md:justify-items-center">
         {skillsData.map((item, index) => (
           <ProgressCircle
             key={index}
@@ -32,6 +32,30 @@ const Skills = () => {
           />
         ))}
       </div>
+      <p
+            id="forScrollToSkills"
+            className="animate-bounce mt-10 cursor-pointer flex flex-col items-center"
+            onClick={() => {
+              document.getElementById("education")?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="white"
+              className="size-6 w-12 rotate-90 h-12 md:w-14 md:h-14 font-extrabold rounded-full px-2 hover:bg-yellow-500 rounded-full px-2 transform transition-all duration-300"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </p>
     </section>
   );
 };

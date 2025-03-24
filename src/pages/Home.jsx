@@ -26,14 +26,14 @@ const Home = () => {
   return (
     <>
       <div
-        className="bg-[#252525] h-screen flex flex-col items-center justify-center md:flex md:flex-row md:justify-between md:items-center"
+        className="bg-[#252525] pt-24 pb-40 sm:pt-0 sm:pb-4 md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center"
       >
         <div className="md:bg-yellow-500 md:h-screen md:w-72 md:relative"></div>
         <div data-aos="flip-right"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="static w-60 h-56 bg-black rounded-full border-2 border-gray-400 shadow-inner shadow-white md:absolute md:left-16 md:w-[26rem] md:h-[88vh] md:rounded-3xl md:shadow-xl md:shadow-black md:border-none">
+     data-aos-duration="2000" className="static w-60 h-56 bg-black rounded-full border-2 border-gray-400 shadow-inner shadow-white sm:w-44 sm:h-40 md:absolute md:left-16 md:w-[26rem] md:h-[88vh] md:rounded-3xl md:shadow-xl md:shadow-black md:border-none">
           <img
-            className="rounded-full w-60 h-56 md:w-[26rem] md:h-[88vh] md:object-cover md:rounded-md"
+            className="rounded-full w-60 h-56 sm:w-44 sm:h-40 md:w-[26rem] md:h-[88vh] md:object-cover md:rounded-md"
             src={profile}
             alt=""
           />
@@ -42,7 +42,7 @@ const Home = () => {
           data-aos="zoom-in-up"
           className="heading flex flex-col items-center space-y-4 my-4 text-center md:space-y-7 md:w-[30rem] md:mr-72"
         >
-          <h1 className="text-yellow-500 font-bold text-4xl md:text-7xl">
+          <h1 className="text-yellow-500 font-bold text-4xl sm:text-5xl md:text-7xl">
             dev
             <span className="text-green-500 text-5xl md:text-8xl font-extrabold">
               AR
