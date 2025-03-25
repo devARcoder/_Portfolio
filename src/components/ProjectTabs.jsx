@@ -17,13 +17,13 @@ const projects = [
     name: "iNotebook App", img: img3, description: "A full-stack note-taking app built with React.js, Tailwind CSS, Bootstrap 5, Node.js, Express.js, and MongoDB. Securely create, edit, and manage notes with a sleek UI. 🚀🔥 Features: ✔️ JWT Authentication ✔️ CRUD Notes ✔️ Responsive UI ✔️ Secure Backend", category: "React"
   },
   { name: "YouTube Clone", img: img2, description: "Built with HTML, Tailwind CSS, JavaScript, and NewsAPI, featuring search functionality and trending news updates.", category: "JavaScript" },
-  { name: "Fanta Soft Drinks", img: img5, description: "Developed using HTML, CSS, Tailwind CSS, and animations, showcasing vibrant branding and smooth interactivity.", category: "TailwindCSS" },
+  { name: "Fanta Soft Drinks", img: img5, description: "Developed using HTML, CSS, Tailwind CSS, and animations, showcasing vibrant branding and smooth interactivity.", category: "Tailwind" },
   { name: "Weather App", img: img4, description: "Created with HTML, Tailwind CSS, and JavaScript, providing real-time weather updates and essential details for cities worldwide.", category: "JavaScript" },
   { name: "NewsMonkey App", img: img7, description: "Created with HTML, Tailwind CSS, and JavaScript, providing real-time weather updates and essential details for cities worldwide.", category: "React" },
-  { name: "Facebook Clone", img: img6, description: "A Facebook Clone 📱 built with Tailwind CSS and the Pixabay API, designed for mobile devices. It features a sleek, responsive feed 🖼️ showcasing high-quality images dynamically fetched from Pixabay, ensuring a smooth and engaging user experience.", category: "TailwindCSS" },
+  { name: "Facebook Clone", img: img6, description: "A Facebook Clone 📱 built with Tailwind CSS and the Pixabay API, designed for mobile devices. It features a sleek, responsive feed 🖼️ showcasing high-quality images dynamically fetched from Pixabay, ensuring a smooth and engaging user experience.", category: "Tailwind" },
 ];
 
-const categories = ["All", "TailwindCSS", "JavaScript", "React"];
+const categories = ["All", "Tailwind", "JavaScript", "React"];
 
 const ProjectTabs =() =>{
   const [activeCategory, setActiveCategory] = useState("All");
@@ -42,7 +42,7 @@ const ProjectTabs =() =>{
 
   return (
     <div className="pt-32 max-w-5xl mx-auto p-4 ">
-      <div className="flex justify-center items-center space-x-2">
+      <div className="flex justify-center items-center space-x-1">
         {categories.map((category, index) => (
           <button
             key={index}

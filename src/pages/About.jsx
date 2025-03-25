@@ -70,14 +70,14 @@ const About = () => {
                 </h1>
                 <h1 className="flex flex-col text-gray-400 font-semibold ">
                   Email:{" "}
-                  <span className="text-white font-bold text-[13px]">
+                  <span className="text-white font-bold text-[11px]">
                     devarcoder789@gmail.com
                   </span>
                 </h1>
                 <h1 className="flex flex-col text-gray-400 font-semibold ">
                   Language:{" "}
                   <span className="text-white font-bold text-[14px]">
-                    English, Urdu and Pashto
+                    English, Urdu, Pashto
                   </span>
                 </h1>
               </div>
