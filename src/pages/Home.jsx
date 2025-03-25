@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import profile from "../assets/profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import { FiDownload } from "react-icons/fi";
 import { IoMdDownload } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -23,7 +24,13 @@ const Home = () => {
     document.body.removeChild(link);
   };
 
-  const headings = ["FRONTEND DEVELOPER", "REACT DEVELOPER", "UI/UX DESIGNER", "WEB DEVELOPER", "FIGMA INTO CODE "];
+  const headings = [
+    "FRONTEND DEVELOPER",
+    "REACT DEVELOPER",
+    "UI/UX DESIGNER",
+    "WEB DEVELOPER",
+    "FIGMA INTO CODE ",
+  ];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -36,13 +43,14 @@ const Home = () => {
 
   return (
     <>
-      <div
-        className="bg-[#252525] pt-24 pb-40 sm:pt-0 sm:pb-4 md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center"
-      >
+      <div className="bg-[#252525] pt-24 pb-40 sm:pt-0 sm:pb-4 md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center">
         <div className="md:bg-yellow-500 md:h-screen md:w-72 md:relative"></div>
-        <div data-aos="flip-right"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="static w-60 h-56 bg-black rounded-full border-2 border-gray-400 shadow-inner shadow-white sm:w-44 sm:h-40 md:absolute md:left-16 md:w-[26rem] md:h-[88vh] md:rounded-3xl md:shadow-xl md:shadow-black md:border-none">
+        <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="static w-60 h-56 bg-black rounded-full border-2 border-gray-400 shadow-inner shadow-white sm:w-44 sm:h-40 md:absolute md:left-16 md:w-[26rem] md:h-[88vh] md:rounded-3xl md:shadow-xl md:shadow-black md:border-none"
+        >
           <img
             className="rounded-full w-60 h-56 sm:w-44 sm:h-40 md:w-[26rem] md:h-[88vh] md:object-cover md:rounded-md"
             src={profile}
@@ -68,13 +76,24 @@ const Home = () => {
             CSS, and JavaScript, building modern, responsive, and interactive
             web applications.
           </p>
+          <div className="flex space-x-4 text-4xl text-white">
+            <a className="animate-bounce" href="https://www.linkedin.com/in/abdur-razzaq-8b569a335/">
+              <FaGithub className="text-white hover:text-gray-400 border border-white p-1.5 rounded-full" />
+            </a>
+            <a className="animate-bounce" href="https://github.com/devARcoder">
+              <FaLinkedin className="text-white hover:bg-sky-400 border border-white p-1.5 rounded-full" />
+            </a>
+          </div>
 
-<button
-      onClick={handleDownload}
-      className="flex items-center bg-green-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-green-700 transition duration-300"
-    >
-      📄 Download CV <span className="ml-2 text-2xl animate-bounce"><IoMdDownload/></span>
-    </button>
+          <button
+            onClick={handleDownload}
+            className="flex items-center bg-green-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-green-700 transition duration-300"
+          >
+            📄 Download CV{" "}
+            <span className="ml-2 text-2xl animate-bounce">
+              <IoMdDownload />
+            </span>
+          </button>
         </div>
       </div>
     </>
