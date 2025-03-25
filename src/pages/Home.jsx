@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import profile from "../assets/profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import { FaGithub } from "react-icons/fa";
-// import { FaLinkedin } from "react-icons/fa";
-// import { IoLogoWhatsapp } from "react-icons/io";
-// import { FaInstagram } from "react-icons/fa";
+// import { FiDownload } from "react-icons/fi";
+import { IoMdDownload } from "react-icons/io";
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -14,6 +12,16 @@ const Home = () => {
       once: false, // Whether animation should happen once or every time you scroll
     });
   }, []);
+
+  const handleDownload = () => {
+    const resumeUrl = "/myresume.pdf";
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Abdur_Razzaq_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   const headings = ["FRONTEND DEVELOPER", "REACT DEVELOPER", "UI/UX DESIGNER", "WEB DEVELOPER", "FIGMA INTO CODE "];
   const [index, setIndex] = useState(0);
@@ -52,7 +60,7 @@ const Home = () => {
             </span>
             coder
           </h1>
-          <h1 className="text-white font-extrabold text-2xl md:text-4xl transition-opacity duration-500 ease-in-out">
+          <h1 className="bg-gradient-to-r from-sky-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-mono font-extrabold text-2xl md:text-4xl transition-opacity duration-500 ease-in-out">
             {headings[index]}
           </h1>
           <p className="text-md text-gray-300 font-semibold px-4 md:text-xl">
@@ -60,35 +68,13 @@ const Home = () => {
             CSS, and JavaScript, building modern, responsive, and interactive
             web applications.
           </p>
-          {/* <div
-            data-aos="zoom-in-up"
-            className="flex items-center space-x-2 my-3 border border-yellow-500 rounded-full transform transition-all duration-300 hover:bg-yellow-500 "
-          >
-            <button className=" pl-8 md:pl-12 md:pr-5 pr-3 py-3 md:py-4 text-white text-lg font-bold">
-              {" "}
-              ABOUT ME
-            </button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="white"
-              className="size-6 w-12 h-12 md:w-14 md:h-14 font-extrabold rounded-l-lg bg-yellow-500 rounded-full px-2 transform transition-all duration-300 hover:translate-x-0 hover:bg-transparent hover:rotate-180"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </div> */}
-          <div className="icons">
-            <p>github</p>
-            <p>linkedin</p>
-            <p>whatsApp</p>
-            <p>insta</p>
-          </div>
+
+<button
+      onClick={handleDownload}
+      className="flex items-center bg-green-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-green-700 transition duration-300"
+    >
+      📄 Download CV <span className="ml-2 text-2xl animate-bounce"><IoMdDownload/></span>
+    </button>
         </div>
       </div>
     </>

@@ -16,7 +16,7 @@ const Contact = () => {
             </h1>
           </div>
           <div className="flex flex-col justify-center items-center mt-20 md:mt-36 md:flex md:flex-row md:justify-evenly md:items-center">
-            <div className="1 mx-4 md:w-1/2">
+            <div className="1 mx-4 md:w-1/2" data-aos="fade-right">
               <div className="head text-white flex flex-col space-y-3">
                 <h1 className='text-2xl font-bold'>DON'T BE SHY !</h1>
                 <p className='text-lg font-semibold'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
@@ -45,14 +45,14 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="2 mt-6 pb-24 flex flex-col items-center space-y-5 md:space-y-8 text-white md:-ml-28">
+            <div className="2 mt-6 pb-24 flex flex-col items-center space-y-5 md:space-y-8 text-white md:-ml-28" data-aos="zoom-in">
               <div className="flex flex-col space-y-5 space-x-0 md:flex md:flex-row md:items-center md:space-y-0 md:space-x-3">
               <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR NAME'/>
               <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR EMAIL'/>
               </div>
               <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-[27rem] rounded-full' type="text" placeholder='YOUR SUBJECT'/>
               <textarea rows="5" className='w-80 md:w-[27rem] bg-[#504e4e] border-none px-3 rounded-lg py-2.5' placeholder='YOUR MESSAGE'></textarea>
-              <button className='bg-transparent border border-yellow-500 rounded-full text-lg text-white font-bold px-6 py-2.5 hover:bg-yellow-500'>SEND MESSAGE</button>
+              <button className='bg-transparent border border-yellow-500 rounded-full text-lg text-white font-bold px-6 py-2.5 transform transition-all duration-1000 hover:bg-yellow-500'>Send Message</button>
             </div>
           </div>
         </div>

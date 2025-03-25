@@ -58,7 +58,7 @@ const ProjectTabs =() =>{
       <div className="grid grid-cols-1 gap-3 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 justify-items-center mt-4 pt-4">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project, index) => (
-            <div key={index} className="mb-4 relative" data-aos="zoom-in">
+            <div key={index} className="mb-4 relative " data-aos="zoom-in">
               
               <img data-aos="zoom-in" className="w-72 h-44 sm:h-44 md:h-44 lg:h-48 object-cover rounded-lg absolute z-0  " src={project.img} alt="" />
               

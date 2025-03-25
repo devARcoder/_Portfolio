@@ -28,7 +28,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="1 flex flex-col items-center sm:mt-20 md:mt-20">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0 ">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center ">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Waqas Muhammad</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Flutter Developer</h3>
@@ -38,7 +38,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="2 flex flex-col items-center">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>ZainUlAbdiden</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Web Developer</h3>
@@ -48,7 +48,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="3 flex flex-col items-center">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Hassan Khan</h1>
                 <h3 className='text-md text-green-500 font-bold'>MERN Stack dev</h3>
@@ -58,7 +58,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="4 flex flex-col items-center md:mt-20">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0 ">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center ">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Sajid Rehman</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Web Developer</h3>
@@ -68,7 +68,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="5 flex flex-col items-center">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Shakir Khan</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Flutter Developer</h3>
@@ -78,7 +78,7 @@ const Testimonials = () => {
               <div data-aos="zoom-out" className="6 flex flex-col items-center">
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0">
               </div>
-              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center">
+              <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Haris Haseeb</h1>
                 <h3 className='text-md text-green-500 font-bold'>Backend Developer</h3>

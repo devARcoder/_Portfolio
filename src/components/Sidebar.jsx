@@ -20,7 +20,7 @@ const Sidebar = () => {
   }, []);
   return (
     <>
-    <div className="sidebar fixed bottom-0 w-full z-40 md:w-auto bg-gray-700 md:fixed md:right-0 md:top-32 md:bg-transparent">
+    <div className="sidebar fixed bottom-0 w-full z-40 md:w-auto bg-none backdrop-blur-sm bg-black/50 md:bg-none md:backdrop-blur-none md:fixed md:right-0 md:top-32 md:bg-transparent">
           <div className="sidebar flex flex-row justify-center items-center space-x-3 md:flex md:flex-col md:justify-center md:items-center md:space-y-3 md:px-5">
             <div className="hidden md:text-3xl md:text-white md:transition-all md:duration-500 md:ease-in-out md:-translate-y-24">
             <BsFillBrightnessHighFill />
@@ -32,7 +32,7 @@ const Sidebar = () => {
               to="/about"
               className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
                 location.pathname === "/about"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  ? "bg-yellow-500 text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
                   : ""
               }`}
             >
@@ -44,7 +44,7 @@ const Sidebar = () => {
               to="/projects"
               className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
                 location.pathname === "/projects"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  ? "bg-yellow-500 text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
                   : ""
               }`}
             >
@@ -56,7 +56,7 @@ const Sidebar = () => {
               to="/"
               className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
                 location.pathname === "/"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  ? "bg-yellow-500 text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
                   : ""
               }`}
             >
@@ -68,7 +68,7 @@ const Sidebar = () => {
               to="/testimonials"
               className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
                 location.pathname === "/testimonials"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  ? "bg-yellow-500 text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
                   : ""
               }`}
             >
@@ -80,7 +80,7 @@ const Sidebar = () => {
               to="/contact"
               className={`text-3xl p-4 rounded-full text-white transition-all duration-500 ${
                 location.pathname === "/contact"
-                  ? "bg-[#252525] text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
+                  ? "bg-yellow-500 text-white ease-in-out -translate-y-10 text-[33px] md:bg-yellow-500 md:-translate-y-0"
                   : ""
               }`}
             >
