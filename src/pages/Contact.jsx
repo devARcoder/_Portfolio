@@ -33,14 +33,14 @@ const Contact = () => {
                 <h1 className=' text-5xl text-yellow-500'><IoMdMail/></h1>
                   <div className='flex flex-col text-white'>
                     <p className='text-sm'>MAIL ME</p>
-                    <h3 className='font-bold'>devarcoder789@gmail.com</h3>
+                    <a href="mailto:devarcoder789@gmail.com" className='font-bold'>devarcoder789@gmail.com</a>
                   </div>
                 </div>
                 <div className="1 flex items-center space-x-3 text-white">
                 <h1 className=' text-5xl text-yellow-500'><FiPhoneCall/></h1>
                   <div className='flex flex-col text-white'>
                     <p className='text-sm'>CALL ME</p>
-                    <h3 className='font-bold'>+923070925248</h3>
+                    <a href="tel:+923070925248" className='font-bold'>+923070925248</a>
                   </div>
                 </div>
               </div>
