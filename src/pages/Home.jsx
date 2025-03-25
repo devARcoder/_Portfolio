@@ -43,7 +43,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="bg-[#252525] pt-14 pb-40 sm:pt-0 sm:pb-4 md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center">
+      <div className="bg-[#252525] pt-4 pb-40 sm:pt-0 sm:pb-4 md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center">
         <div className="md:bg-yellow-500 md:h-screen md:w-72 md:relative"></div>
         <div
           data-aos="flip-right"
@@ -77,14 +77,16 @@ const Home = () => {
             web applications.
           </p>
           <div className="flex space-x-4 text-4xl text-white">
-            <a className="animate-bounce" href="https://www.linkedin.com/in/abdur-razzaq-8b569a335/">
+            <a target="_blank" rel="noopener noreferrer" className="animate-bounce" href="https://github.com/devARcoder">
               <FaGithub className="text-white hover:text-gray-400 border border-white p-1.5 rounded-full" />
             </a>
-            <a className="animate-bounce" href="https://github.com/devARcoder">
+            
+            <a target="_blank" rel="noopener noreferrer" className="animate-bounce" href="https://www.linkedin.com/in/abdur-razzaq-8b569a335/" >
+            
               <FaLinkedin className="text-white hover:bg-sky-400 border border-white p-1.5 rounded-full" />
             </a>
           </div>
-
+          
           <button
             onClick={handleDownload}
             className="flex items-center bg-green-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-green-700 transition duration-300"
