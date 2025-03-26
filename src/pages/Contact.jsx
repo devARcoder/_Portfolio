@@ -45,15 +45,20 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <form action="https://formsubmit.co/devarcoder789@gmail.com" method="POST">
             <div className="2 mt-6 pb-24 flex flex-col items-center space-y-5 md:space-y-8 text-white md:-ml-28" data-aos="zoom-in">
+
               <div className="flex flex-col space-y-5 space-x-0 md:flex md:flex-row md:items-center md:space-y-0 md:space-x-3">
-              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR NAME'/>
-              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR EMAIL'/>
+              <input type="hidden" name="_subject" value="New Contact Form Submission"/>
+              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR NAME' id='name' name='name' required/>
+              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-52 rounded-full' type="text" placeholder='YOUR EMAIL' id='email' name='email' required/>
               </div>
-              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-[27rem] rounded-full' type="text" placeholder='YOUR SUBJECT'/>
-              <textarea rows="5" className='w-80 md:w-[27rem] bg-[#504e4e] border-none px-3 rounded-lg py-2.5' placeholder='YOUR MESSAGE'></textarea>
-              <button className='bg-transparent border border-yellow-500 rounded-full text-lg text-white font-bold px-6 py-2.5 transform transition-all duration-1000 hover:bg-yellow-500'>Send Message</button>
+              <input className='bg-[#504e4e] border-none px-3 py-2.5 w-80 md:w-[27rem] rounded-full' type="text" placeholder='YOUR SUBJECT' id='subject' name='subject' required/>
+              <textarea rows="5" className='w-80 md:w-[27rem] bg-[#504e4e] border-none px-3 rounded-lg py-2.5' placeholder='YOUR MESSAGE' id='message' name='message' required></textarea>
+              
+              <button type='submit' className='bg-transparent border border-yellow-500 rounded-full text-lg text-white font-bold px-6 py-2.5 transform transition-all duration-1000 hover:bg-yellow-500'>Send Message</button>
             </div>
+            </form>
           </div>
         </div>
     </>
