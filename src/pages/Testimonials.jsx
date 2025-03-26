@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from '../assets/elon.jpeg'
+// import img1 from '../assets/elon.jpeg'
+import img1 from '../assets/users.png'
+import shakir from '../assets/shakir.jpg'
+import waqas from '../assets/waqas.jpg'
 const Testimonials = () => {
   useEffect(() => {
       AOS.init({
@@ -29,7 +32,7 @@ const Testimonials = () => {
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0 ">
               </div>
               <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
-                <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
+                <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={waqas} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Waqas Muhammad</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Flutter Developer</h3>
                 <p className='text-[14px] px-3 text-center'>Razzaq did an amazing job on my portfolio website! The design is sleek, responsive, and perfectly showcases my work. Highly recommended! 🚀</p>
@@ -40,7 +43,7 @@ const Testimonials = () => {
               </div>
               <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
                 <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
-                <h1 className='text-xl font-bold mt-1'>ZainUlAbdiden</h1>
+                <h1 className='text-xl font-bold mt-1'>ZainUlAbiden</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Web Developer</h3>
                 <p className='text-[14px] px-3 text-center'>Work is impressive! Clean code, smooth animations, and a great eye for design. Looking forward to seeing more from him! 👍🔥</p>
               </div>
@@ -69,7 +72,7 @@ const Testimonials = () => {
               <div className="1 bg-green-500 w-56 h-56 rotate-12 rounded-lg relative z-0">
               </div>
               <div className="absolute bg-white text-black w-56 h-56 rotate- rounded-lg z-10 flex flex-col items-center transform transition-all duration-1000 ease-in-out hover:scale-125">
-                <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={img1} alt="user1" />
+                <img className='w-24 h-24 rounded-full object-cover -mt-12 border-4 border-white' src={shakir} alt="user1" />
                 <h1 className='text-xl font-bold mt-1'>Shakir Khan</h1>
                 <h3 className='text-lg text-green-500 font-bold'>Flutter Developer</h3>
                 <p className='text-[14px] px-3 text-center'>Your work is exceptional! Clean architecture, flawless UI, and top-tier functionality. Truly impressive! 🚀🔥</p>

@@ -85,11 +85,11 @@ const ProjectTabs = () => {
   return (
     <div className="pt-32 max-w-5xl mx-auto p-4">
       {/* Category Tabs */}
-      <div className="flex justify-center items-center space-x-1">
+      <div className="flex justify-center items-center space-x-5">
         {categories.map((category, index) => (
           <button
             key={index}
-            className={`px-4 py-2 text-md font-semibold border-b-2 transition-all duration-200 ease-in-out ${
+            className={`px-0 py-2 text-md font-semibold border-b-2 transition-all duration-200 ease-in-out ${
               activeCategory === category
                 ? "border-green-500 text-yellow-500"
                 : "border-transparent text-white hover:text-gray-500"
