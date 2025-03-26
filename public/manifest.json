@@ -1,6 +1,6 @@
 {
   "short_name": "devARcoder",
-  "name": "My personal Portfolio App",
+  "name": "devARcoder",
   "icons": [
     {
       "src": "arlogo2.png",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#fff",
+  "theme_color": "#000000",
   "background_color": "#252525"
 }
