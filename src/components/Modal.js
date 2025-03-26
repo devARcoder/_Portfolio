@@ -1,5 +1,5 @@
 import React from "react";
-
+import { IoClose } from "react-icons/io5";
 const Modal = ({ isOpen, onClose, title, description, url }) => {
   if (!isOpen) return null;
 
@@ -14,11 +14,12 @@ const Modal = ({ isOpen, onClose, title, description, url }) => {
         <p className="text-white mb-4">{description}</p>
         <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-500 mb-4">GitHub Repository Link</a>
         <button
-          className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
+          className="px-4 py-2 text-3xl text-white"
           onClick={onClose}
         >
-          Close
+          <IoClose />
         </button>
+        
       </div>
     </div>
   );

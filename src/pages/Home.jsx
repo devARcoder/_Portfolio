@@ -42,7 +42,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="bg-[#252525] pt-4 pb-44 sm:pt-0 sm:pb-4 sm:pb-[121px] md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center">
+      <div className="bg-[#252525] pt-4 pb-72 sm:pt-0 sm:pb-4 sm:pb-[121px] md:pb-0 md:pt-0 flex flex-col justify-center items-center md:flex md:flex-row md:justify-between md:items-center">
         <div className="md:bg-yellow-500 md:h-screen md:w-72 md:relative"></div>
         <div
           data-aos="flip-right"

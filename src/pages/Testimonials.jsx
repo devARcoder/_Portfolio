@@ -16,7 +16,7 @@ const Testimonials = () => {
   return (
     <>
     
-        <div className="bg-[#252525] pb-20">
+        <div className="bg-[#252525] pb-40 lg:pb-20">
           <div className="heading relative text-white flex flex-col items-center py-7">
             <h1 className="absolute text-5xl font-extrabold md:tracking-wider opacity-15 md:text-9xl">
               TESTIMONIALS
