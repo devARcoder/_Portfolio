@@ -1,6 +1,7 @@
 {
   "short_name": "devARcoder",
   "name": "devARcoder",
+  
   "icons": [
     {
       "src": "arlogo2.png",
@@ -11,5 +12,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#252525"
+  "background_color": "#000000"
 }
