@@ -10,7 +10,7 @@ const Skills = () => {
     { skill: "85%", percentage: 85, color: "#10B981", name: "JavaScript" },
     { skill: "100%", percentage: 100, color: "#F59E0B", name: "HTML"  },
     { skill: "80%", percentage: 80, color: "#4F46E5", name: "Custome CSS"  },
-    { skill: "90%", percentage: 90, color: "#1ABCFE", name: "Figma Design" },
+    { skill: "99%", percentage: 99, color: "#1ABCFE", name: "TailwindCSS" },
     
     
     
