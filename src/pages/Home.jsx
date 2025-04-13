@@ -27,6 +27,7 @@ const Home = () => {
   const headings = [
     "FRONTEND DEVELOPER",
     "REACT DEVELOPER",
+    "Master in Tailwind",
     "WEB DEVELOPER",
     "FIGMA INTO CODE ",
   ];
