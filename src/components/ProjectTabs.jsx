@@ -9,7 +9,8 @@ import img4 from "../assets/weather.webp";
 import img5 from "../assets/fanta.jpeg";
 import img6 from "../assets/fb_clone.jpg";
 import img7 from "../assets/news.jpeg";
-
+import img8 from "../assets/intern.jpeg"
+import img9 from "../assets/portfolio.png"
 const projects = [
   {
     name: "E-commerce Store",
@@ -26,11 +27,25 @@ const projects = [
     url: "https://github.com/devARcoder/iNotebook"
   },
   {
+    name: "My Portfolio",
+    img: img9,
+    description: "✨ A stunning, fully responsive, and animated portfolio website built with ⚛️ React.js & 🎨 Tailwind CSS. Showcasing my skills, projects, and experience with a sleek UI, smooth animations, and an immersive user experience. 🚀 Optimized for all devices!",
+    category: "React",
+    url: "https://github.com/devARcoder/_Portfolio"
+  },
+  {
     name: "YouTube Clone",
     img: img2,
     description: "Built with HTML, Tailwind CSS, JavaScript, and NewsAPI, featuring search functionality and trending news updates.",
     category: "JavaScript",
     url: "https://github.com/devARcoder/YouTube_Clone"
+  },
+  {
+    name: "InernIntelligence",
+    img: img8,
+    description: "E-commerce site Intern Intelligence task completed",
+    category: "React",
+    url: "https://github.com/devARcoder/InternIntelligence_E-commerce"
   },
   {
     name: "Fanta Soft Drinks",
@@ -52,6 +67,13 @@ const projects = [
     description: "Created with HTML, Tailwind CSS, and JavaScript, providing real-time weather updates and essential details for cities worldwide.",
     category: "React",
     url: "https://github.com/devARcoder/NewsMonkey"
+  },
+  {
+    name: "InernIntelligence",
+    img: img8,
+    description: "Portfolio site Intern Intelligence task completed",
+    category: "React",
+    url: "https://github.com/devARcoder/InternIntelligence_Portfolio"
   },
   {
     name: "Facebook Clone",
