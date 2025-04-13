@@ -43,7 +43,7 @@ const Educations = () => {
               </p>
               <h1 className="text-lg font-bold ">
                 WEB DEVELOPER -{" "}
-                <span className="text-gray-500 text-[15px]">Harry Bhai</span>
+                <span className="text-gray-500 text-[15px]">CodeWithHarry</span>
               </h1>
               <p className="text-sm md:mr-20">
                 Learn to build web pages using HTML and style them with
@@ -65,7 +65,7 @@ const Educations = () => {
               </p>
               <h1 className="text-lg font-bold ">
                 TAILWINDCSS -{" "}
-                <span className="text-gray-500 text-[15px]">Harry Bhai</span>
+                <span className="text-gray-500 text-[15px]">CodeWithHarry</span>
               </h1>
               <p className="text-sm">
               Completed the Tailwind CSS UI Design course from Code with Harry, gaining expertise in responsive and modern web styling.
